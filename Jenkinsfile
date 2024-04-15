@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'
-        GITHUB_URL = 'https://github.com/miamioh-cit/225-lab3-8.git'                                    //<------change this
-        KUBECONFIG = credentials('roseaw-225')                                                          //<------change this
+        GITHUB_URL = 'https://github.com/mosinskimatt/225-lab3-8.git'                                    //<------change this
+        KUBECONFIG = credentials('mosinsmj-225')                                                          //<------change this
     }
 
     stages {
